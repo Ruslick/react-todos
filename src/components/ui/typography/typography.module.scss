@@ -1,0 +1,34 @@
+@import '/src/assets/scss-variables/spaces.scss';
+@import '/src/assets/scss-variables/colors.scss';
+
+.mini {
+  font-size: $x4;
+}
+.p {
+  font-size: $x10;
+}
+.h {
+  font-size: $x16;
+}
+
+
+.primary {
+  color: $primary-text-color
+}
+
+.secondary {
+  color: $secondary-text-color
+}
+
+.inactive {
+  color: $inactive-text-color
+}
+
+
+.italic {
+  font-style: italic;
+}
+
+.line {
+  text-decoration: line-through;
+}

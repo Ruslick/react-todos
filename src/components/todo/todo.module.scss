@@ -1,0 +1,17 @@
+@import '/src/assets/scss-variables/colors.scss';
+@import '/src/assets/scss-variables/spaces.scss';
+
+.todo {
+  width: 100%;
+  border-bottom: 0.5px solid $inactive-text-color;
+  display: flex;
+  align-items: center;
+  gap: $x4;
+  padding: $x2 $x4;
+  transition-duration: 200ms;
+  &:hover {
+    box-shadow: 0 5px 10px 1px $inactive-text-color;
+  }
+  cursor: pointer;
+
+}

@@ -1,0 +1,18 @@
+@import '/src/assets/scss-variables/spaces.scss';
+@import '/src/assets/scss-variables/colors.scss';
+
+.panel {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: $x2 $x4;
+}
+
+.filterButtons {
+  display: flex;
+  gap: $x3;
+}
+
+.clearButton {
+  text-align: end;
+}

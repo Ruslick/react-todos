@@ -1,0 +1,25 @@
+@import '/src/assets/scss-variables/spaces.scss';
+@import '/src/assets/scss-variables/colors.scss';
+
+
+.notActive {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: $x1;
+  padding: $x1 $x2;
+  border: 1px solid transparent;
+
+  &:hover {
+    box-shadow: 0 5px 10px 1px $inactive-text-color;
+  }
+}
+
+.active {
+  composes: notActive;
+  border: 1px solid $inactive-text-color;
+  &:hover {
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,8 @@
+@import '/src/assets/scss-variables/colors.scss';
+@import '/src/assets/scss-variables/spaces.scss';
+
+.wrapper {
+  margin-top: $x2;
+  background-color: $card-color;
+  box-shadow: 0 0 5px 1px $secondary-text-color;
+}

@@ -1,0 +1,24 @@
+@import '/src/assets/scss-variables/spaces.scss';
+@import '/src/assets/scss-variables/colors.scss';
+
+
+.input {
+  outline: none;
+  border: none;
+  padding: $x4;
+  font-size: $x8;
+  font-family: inherit;
+  background-color: transparent;
+  &::placeholder {
+    color: $inactive-text-color;
+    font-style: italic;
+  }
+}
+
+.wrapper {
+  border-bottom: 0.5px solid $inactive-text-color;
+  display: flex;
+  padding: 0 $x4;
+  align-items: center;
+  color: $inactive-text-color;
+}
